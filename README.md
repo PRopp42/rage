@@ -1,5 +1,7 @@
 ##R.A.G.E. : Ribosome Assisted Genome Exploration
 
+![RAGE icon](./RAGEicon.png)
+
 ###Introduction
 
 With the development of high-throughput sequencing technologies in past years, ribosome profiling has emerged as a novel technique that provides a quantitative and qualitative measure of mRNA translation and protein production. Ribosome profiling (or Ribo-Seq) is performed via nuclease footprinting, which involves digestion of all RNA segments unoccupied by the ribosomes. The ribosome protected fragments or “footprints” are purified and then subjected to deep sequencing. Given that this technique is rather new, few genome annotation pipelines have incorporated the information that Ribo-Seq provides into their predictions. RAGE is an automated software pipeline targeted towards prokyaryotic genomes that uses mRNA and Ribo-seq data along with a reference genome to produce a set of gene predictions that are ranked according to which data set aided the gene discovery. This pipeline was original created by the contributors for the course 03-713 at Carnegie Mellon University.
